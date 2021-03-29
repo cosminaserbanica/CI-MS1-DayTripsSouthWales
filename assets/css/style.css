@@ -23,3 +23,28 @@ html {
   font-family: 'Bangers', cursive;
   letter-spacing: 1.3px;
 }
+
+/************************** STYLES FOR NAVBAR ***************************/
+
+/* Navbar Background Image */
+.navbar-inverse {
+  background-image: url("../images/panoramic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+/*Navbar Brand */
+.navbar-inverse .navbar-brand {
+  color: black !important;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1.3px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color:#fff !important;
+}
+
+.navbar-brand {
+  line-height: 8px;
+  padding: 20px 15px 15px 20px !important;
+}
