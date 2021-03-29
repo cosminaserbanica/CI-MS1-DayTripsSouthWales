@@ -98,16 +98,19 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 /************************** STYLES FOR CAROUSEL ***************************/
 
+.carousel-inner, .carousel-inner img {
+  height: 560px;
+}
+
 .carousel-inner img {
   width: 100%;
-  height: 750px;
   object-fit: cover;
 }
 
 .carousel-caption {
   background-color: black;
   opacity: 70%;
-  transform: translateY(-260%);
+  transform: translateY(-180%);
 }
 
 /************************** STYLES FOR FOOTER ***************************/
