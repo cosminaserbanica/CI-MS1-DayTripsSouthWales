@@ -96,6 +96,21 @@ footer {
   color: rgb(112, 23, 23);
 }
 
+
+/************************** STYLES FOR CAROUSEL ***************************/
+
+.carousel-inner img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: black;
+  opacity: 70%;
+  transform: translateY(-260%);
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
