@@ -48,3 +48,10 @@ html {
   line-height: 8px;
   padding: 20px 15px 15px 20px !important;
 }
+
+/* List Item Styling */
+.navbar-inverse .navbar-nav>li>a {
+  color: black !important;
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 15px;
+}
