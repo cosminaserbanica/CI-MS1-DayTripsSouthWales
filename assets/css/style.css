@@ -55,3 +55,41 @@ html {
   font-family: 'Bree Serif', sans-serif;
   font-size: 15px;
 }
+
+/************************** MEDIA QUERIES ***************************/
+
+/* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
+
+@media screen and (max-width: 991px) {
+  
+  .navbar-inverse .navbar-nav>li>a {
+    margin-left: 20px;
+    color: white !important;
+    text-shadow: black 0px 0px 10px;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 15px;
+  }
+
+  .navbar-nav .dropdown-menu {
+    float: left;
+    background-color: transparent;
+    color: white !important;
+    text-shadow: black 0px 0px 10px;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 15px;
+  }
+
+  .dropdown-item {
+    color: white
+  }
+
+  .dropdown-item:hover {
+    background-color: transparent;
+    color: grey;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+}
