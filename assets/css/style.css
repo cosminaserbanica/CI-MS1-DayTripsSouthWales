@@ -133,3 +133,17 @@ footer {
   }
 
 }
+
+/* 576PX USED ONLY FOR FOOTER TO ALIGN ITEMS DIFFERENTLY ON MOBILE FOR BETTER USER EXPERIENCE */
+
+@media screen and (max-width:576px) {
+
+  #follow-us {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .social-icons i {
+    float: none;
+  }
+}
