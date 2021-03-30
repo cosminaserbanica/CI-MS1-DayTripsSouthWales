@@ -214,6 +214,11 @@ hr {
   margin: 10px 20px 0 20px;
 }
 
+.fa-comments {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
 .card>p {
   font-family: "Bree Serif", sans-serif;
   color:black;
