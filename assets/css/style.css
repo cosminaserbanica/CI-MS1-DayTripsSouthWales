@@ -319,6 +319,14 @@ hr {
   margin-bottom: 10px;
 }
 
+div.button {
+  text-align: center;
+}
+
+.book-button {
+  color: #fff;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
