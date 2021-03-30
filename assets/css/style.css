@@ -371,10 +371,6 @@ div.button {
     background-color: transparent;
     color: grey;
   }
-
-  .navbar-brand {
-    font-size: 14px;
-  }
 }
 
 /* 576PX USED ONLY FOR FOOTER TO ALIGN ITEMS DIFFERENTLY ON MOBILE FOR BETTER USER EXPERIENCE */
