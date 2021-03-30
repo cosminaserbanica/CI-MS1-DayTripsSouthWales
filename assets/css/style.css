@@ -332,6 +332,14 @@ div.button {
   text-decoration: none !important;
 }
 
+.gallery-imgs {
+  text-align: center;
+}
+
+.gallery-img {
+  padding-bottom: 5px;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
