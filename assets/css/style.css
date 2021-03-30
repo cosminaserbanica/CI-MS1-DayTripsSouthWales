@@ -305,6 +305,19 @@ hr {
   text-decoration: underline solid 2px blue;
 }
 
+.gallery-list {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.gallery-list>li {
+  margin-bottom: 10px;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
