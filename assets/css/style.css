@@ -180,7 +180,19 @@ footer {
   font-size: 12px;
   margin-top: 2px;
   color: black;
-} 
+}
+
+.fa-user-tag {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.profile>img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
 
 /************************** MEDIA QUERIES ***************************/
 
