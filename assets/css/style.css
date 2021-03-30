@@ -275,6 +275,12 @@ hr {
   display: block !important;
 }
 
+/************************** STYLES FOR OUR TRIPS ***************************/
+
+.container-gallery {
+  padding-bottom: 25px;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
