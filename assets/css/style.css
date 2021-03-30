@@ -327,6 +327,11 @@ div.button {
   color: #fff;
 }
 
+.book-button:hover {
+  color: black;
+  text-decoration: none !important;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
