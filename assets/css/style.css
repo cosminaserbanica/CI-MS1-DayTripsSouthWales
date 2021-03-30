@@ -207,6 +207,19 @@ hr {
   margin-bottom: 30px;
 }
 
+.customer-testimonials>h3 {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 22px;
+  color: black;
+  margin: 10px 20px 0 20px;
+}
+
+.card>p {
+  font-family: "Bree Serif", sans-serif;
+  color:black;
+  font-size: 14px;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
@@ -242,10 +255,6 @@ hr {
   .navbar-brand {
     font-size: 14px;
   }
-}
-
-@media screen and (max-width:820px) {
-
 }
 
 /* 576PX USED ONLY FOR FOOTER TO ALIGN ITEMS DIFFERENTLY ON MOBILE FOR BETTER USER EXPERIENCE */
