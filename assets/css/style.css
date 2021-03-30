@@ -125,27 +125,15 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 /************************** STYLES FOR FOOTER ***************************/
 
 footer {
-  min-height: 50px;
   background-color: rgba(0, 0, 0, 0.767);
-  text-align: center;
-  position: relative;
-  align-items: center;
-  justify-content: center;
   margin-top: 15px;
-}
-
-#follow-us {
-  font-family: 'Bree Serif', sans-serif;
-  font-size: 14px;
-  color: white;
-  margin-top: 22px;
-  text-align: right;
 }
 
 /* Social Media Styling */
 .social-icons {
   text-align: center;
-  padding-inline-start: 0px; 
+  padding-inline-start: 0px;
+  margin-bottom: 0px; 
 }
 
 .social-icons li {
@@ -155,7 +143,6 @@ footer {
 .social-icons i {
   color: white;
   padding:23px;
-  float: left;
 }
 
 .social-icons i:hover {
