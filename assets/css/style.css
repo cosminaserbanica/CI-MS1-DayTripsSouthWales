@@ -297,6 +297,14 @@ hr {
   box-shadow: 0 -1px ;
 }
 
+.tour-details, .gallery-heading {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 18px;
+  color:black;
+  text-align: center;
+  text-decoration: underline solid 2px blue;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
