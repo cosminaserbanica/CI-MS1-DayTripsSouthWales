@@ -312,6 +312,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   list-style-type: none;
+  text-align: center;
 }
 
 .gallery-list>li {
