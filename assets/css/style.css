@@ -61,6 +61,10 @@ html {
   background-color: rgb(97, 96, 96, 0.3);
 }
 
+.dropdown-item {
+  font-family: 'Bree Serif', sans-serif;
+}
+
 /************************** STYLES FOR HEADLINE ***************************/
 
 .headline {
