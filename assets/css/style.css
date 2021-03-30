@@ -281,6 +281,13 @@ hr {
   padding-bottom: 25px;
 }
 
+.location-heading {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 22px;
+  color: black;
+  display: flex;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
