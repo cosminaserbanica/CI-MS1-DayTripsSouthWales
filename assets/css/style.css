@@ -219,6 +219,14 @@ hr {
   font-size: 16px;
 }
 
+.container-m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .card>p {
   font-family: "Bree Serif", sans-serif;
   color:black;
