@@ -58,17 +58,54 @@
     </header>
     <!----------------- END OF HEADER SECTION ----------------->
 
-    <!---------------- START OF CONTENT WRAPPER SECTION ---------------->
-    <section id="content">
-
-      <!---------------- START OF FORM SECTION ---------------->
-      <div class="form">
-
-      </div>
-      <!----------------- END OF FORM SECTION ----------------->
-
-    </section>
-    <!----------------- END OF CONTENT WRAPPER SECTION ----------------->
+    <!---------------- START OF FORM SECTION ---------------->
+    <section class="book-now">
+      <form class="book-now-form" method="POST" action="">
+        <h3>Your details</h3>
+        <label for="fname">First Name</label>
+        <input class="text-input" type="text" id="fname" name="first_name" required>
+        <label for="lname">Last Name</label>
+        <input class="text-input" type="text" id="lname" name="last_name" required>
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+        <label for="general-enquiry">General Enquiry</label>
+        <input type="radio" id="enquiry" name="main-selection" value="enquiry" required>
+        <input type="text" id="details" name="description" rows="5" maxlength="250" placeholder="Type your enquiry here">
+        <h3>Or</h3>
+        <label for="trail">Book Your Trip</label>
+        <input type="radio" id="book-trip" name="main-selection" value="trip">
+        <h4>Choose your trip</h4>
+        <label for="penyfan">Pen-Y-Fan</label>
+        <input type="radio" id="penyfan" name="trip-selection" value="penyfan">
+        <label for="waterfalls">Brecon Waterfalls</label>
+        <input type="radio" id="waterfalls" name="trip-selection" value="waterfalls">
+        <label for="margam">Margam Park</label>
+        <input type="radio" id="margam" name="trip-selection" value="margam">
+        <h4>Choose a date</h4>
+        <input type="date" id="trip=date" name="date">
+        <h4>Select your pick up/drop off location</h4>
+        <label for="cardiff">Cardiff</label>
+        <input type="radio" id="cardiff" name="pick-up-location" value="cardiff">
+        <label for="swansea">Swansea</label>
+        <input type="radio" id="swansea" name="pick-up-location" value="Swansea">
+        <h4>Select your meal option</h4>
+        <label for="Ham-and-cheese">Ham & Cheese Baguette</label>
+        <input type="radio" id="hamandcheese" name="meal" value="ham-and-cheese">
+        <label for="cheese-and-onion">Cheese & Onion Baguette</label>
+        <input type="radio" id="cheeseandonion" name="meal" value="cheese-and-onion">
+        <label for="lettuce-and-tomato">Lettuce and tomato salad</label>
+        <input type="radio" id="lettuceandtomato" name="meal" value="lettuce-and-tomato">
+        <h4>Do you have any special dietary requests or allergies?</h4>
+        <label for="no-allergies">No</label>
+        <input type="radio" id="no-allergies" name="diet-requests" value="no-diet-requests">
+        <label for="yes-allergies">Yes</label>
+        <input type="radio" id="yes-allergies" name="diet-requests" value="yes-diet-requests">
+        <h4>If yes, please detail below: </h4>
+        <input type="textarea" id="special-diet" name="special-diet-requests" maxlength="500" placeholder="ex: nuts/diary allergy/gluten free/etc">
+        <input class="send-query" type="submit" value="Submit">
+    </form>
+  </section>
+    <!----------------- END OF FORM SECTION ----------------->
     
     <!---------------- START OF FOOTER SECTION ---------------->
     <footer>
