@@ -397,3 +397,11 @@ div.button {
     float: none;
   }
 }
+
+/* 280PX USED ONLY FOR GALAXY FOLD FOR BETTER USER EXPERIENCE */
+
+@media screen and (max-width:280px) {
+  .navbar-brand {
+    font-size: 14px;
+  }
+}
