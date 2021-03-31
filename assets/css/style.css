@@ -69,7 +69,7 @@ html {
 
 .headline {
   text-align: center;
-  margin: 0 20px 25px 20px;
+  margin: 50px 20px 25px 20px;
 }
 
 .headline>h3 {
@@ -264,6 +264,10 @@ hr {
 
 /************************** STYLES FOR OUR TRIPS ***************************/
 
+#content-our-trips {
+  margin-top: 80px;
+}
+
 .container-gallery {
   padding-bottom: 25px;
 }
@@ -372,9 +376,7 @@ div.button {
     background-color: black;
     opacity: 70%;
     transform: translateY(-40%);
-
   }
-
 }
 
 /* 280PX USED ONLY FOR GALAXY FOLD FOR BETTER USER EXPERIENCE */
