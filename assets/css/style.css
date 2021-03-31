@@ -331,6 +331,10 @@ div.button {
   padding-bottom: 5px;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
@@ -364,7 +368,7 @@ div.button {
   }
 }
 
-/* 576PX USED ONLY FOR FOOTER TO ALIGN ITEMS DIFFERENTLY ON MOBILE FOR BETTER USER EXPERIENCE */
+/* 576PX USED ON MOBILE FOR BETTER USER EXPERIENCE */
 
 @media screen and (max-width:576px) {
   
@@ -377,6 +381,11 @@ div.button {
     opacity: 70%;
     transform: translateY(-40%);
   }
+
+  .gallery-img {
+    height: 260px;
+    width: 260px
+  }
 }
 
 /* 280PX USED ONLY FOR GALAXY FOLD FOR BETTER USER EXPERIENCE */
@@ -384,5 +393,10 @@ div.button {
 @media screen and (max-width:280px) {
   .navbar-brand {
     font-size: 14px;
+  }
+
+  .gallery-img {
+    height: 200px;
+    width: 200px
   }
 }
