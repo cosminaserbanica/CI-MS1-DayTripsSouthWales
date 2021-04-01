@@ -335,6 +335,12 @@ ul {
   padding-inline-start: 0;
 }
 
+/************************** STYLES FOR BOOK NOW ***************************/
+
+.book-now-container {
+  margin-top: 120px;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
