@@ -126,6 +126,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 
 footer {
   background-color: rgba(0, 0, 0, 0.767);  
+  position:sticky;
 }
 
 /* Social Media Styling */
@@ -340,6 +341,7 @@ ul {
   background-image: url(/assets/images/BooknowImage/breconriver.jpg);
   background-repeat: no-repeat;
   width: 100%;
+  height:auto;
   background-size: cover;
   padding-bottom: 370px;
   padding-top: 150px;
