@@ -341,10 +341,9 @@ ul {
   background-image: url(/assets/images/BooknowImage/breconriver.jpg);
   background-repeat: no-repeat;
   width: 100%;
-  height:auto;
   background-size: cover;
-  padding-bottom: 200px;
-  padding-top: 150px;
+  padding-bottom: 400px;
+  padding-top: 250px;
 }
 
 .book-now-container{
