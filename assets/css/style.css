@@ -127,6 +127,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 footer {
   background-color: rgba(0, 0, 0, 0.767);
   margin-top: 15px;
+  
 }
 
 /* Social Media Styling */
@@ -337,8 +338,52 @@ ul {
 
 /************************** STYLES FOR BOOK NOW ***************************/
 
-.book-now-container {
-  margin-top: 120px;
+.book-now-container-section {
+  background-image: url(/assets/images/BooknowImage/fall3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 370px;
+  padding-top: 200px;
+}
+
+.book-now-container{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  width: fit-content;
+}
+
+fieldset{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.9em;
+  margin: 20px 25px 20px 25px;
+}
+
+.book-now-container .card {  
+  background-color: rgba(52, 52, 52, 0.1);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+} 
+
+form fieldset .card-header { 
+  background-color: rgba(255, 255, 255, 0.164);
+}  
+
+form fieldset h2 { 
+  font-size: 0.95em;
+  text-align: left;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+form fieldset input:hover{ 
+  border: 2px solid #7FE7DC;
+}
+
+form fieldset input:-internal-autofill-selected { 
+  background-color: #fff;
 }
 
 /************************** MEDIA QUERIES ***************************/
