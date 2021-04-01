@@ -59,52 +59,177 @@
     <!----------------- END OF HEADER SECTION ----------------->
 
     <!---------------- START OF FORM SECTION ---------------->
-    <section class="book-now">
-      <form class="book-now-form" method="POST" action="">
-        <h3>Your details</h3>
-        <label for="fname">First Name</label>
-        <input class="text-input" type="text" id="fname" name="first_name" required>
-        <label for="lname">Last Name</label>
-        <input class="text-input" type="text" id="lname" name="last_name" required>
-        <label for="email">Email Address</label>
-        <input class="text-input" type="email" id="email" name="email_address" required>
-        <label for="general-enquiry">General Enquiry</label>
-        <input type="radio" id="enquiry" name="main-selection" value="enquiry" required>
-        <input type="text" id="details" name="description" rows="5" maxlength="250" placeholder="Type your enquiry here">
-        <h3>Or</h3>
-        <label for="trail">Book Your Trip</label>
-        <input type="radio" id="book-trip" name="main-selection" value="trip">
-        <h4>Choose your trip</h4>
-        <label for="penyfan">Pen-Y-Fan</label>
-        <input type="radio" id="penyfan" name="trip-selection" value="penyfan">
-        <label for="waterfalls">Brecon Waterfalls</label>
-        <input type="radio" id="waterfalls" name="trip-selection" value="waterfalls">
-        <label for="margam">Margam Park</label>
-        <input type="radio" id="margam" name="trip-selection" value="margam">
-        <h4>Choose a date</h4>
-        <input type="date" id="trip=date" name="date">
-        <h4>Select your pick up/drop off location</h4>
-        <label for="cardiff">Cardiff</label>
-        <input type="radio" id="cardiff" name="pick-up-location" value="cardiff">
-        <label for="swansea">Swansea</label>
-        <input type="radio" id="swansea" name="pick-up-location" value="Swansea">
-        <h4>Select your meal option</h4>
-        <label for="Ham-and-cheese">Ham & Cheese Baguette</label>
-        <input type="radio" id="hamandcheese" name="meal" value="ham-and-cheese">
-        <label for="cheese-and-onion">Cheese & Onion Baguette</label>
-        <input type="radio" id="cheeseandonion" name="meal" value="cheese-and-onion">
-        <label for="lettuce-and-tomato">Lettuce and tomato salad</label>
-        <input type="radio" id="lettuceandtomato" name="meal" value="lettuce-and-tomato">
-        <h4>Do you have any special dietary requests or allergies?</h4>
-        <label for="no-allergies">No</label>
-        <input type="radio" id="no-allergies" name="diet-requests" value="no-diet-requests">
-        <label for="yes-allergies">Yes</label>
-        <input type="radio" id="yes-allergies" name="diet-requests" value="yes-diet-requests">
-        <h4>If yes, please detail below: </h4>
-        <input type="textarea" id="special-diet" name="special-diet-requests" maxlength="500" placeholder="ex: nuts/diary allergy/gluten free/etc">
-        <input class="send-query" type="submit" value="Submit">
-    </form>
-  </section>
+    <section class="book-now-container">
+      <div class="col-12 book-now-container">
+        <div class="col-12">
+          <div class="row">
+            <form>
+              <fieldset>
+                <div class="form-check form-check-inline">
+                  <label for="FirstName">First Name: </label>&nbsp;&nbsp;
+                  <input type="text" id="FirstName" placeholder="First Name" name="First_Name" required>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label for="contactLastName">Last Name: </label>&nbsp;&nbsp;
+                  <input type="text" id="LastName" placeholder="Last Name" name="Last_Name" required>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label for="email">Email Address: </label>&nbsp;&nbsp;
+                  <input type="email" id="email" name="Email_Address" placeholder="Your Email Address" required>
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="accordion" id="contactForm">
+                  <div class="card">
+                    <div class="card-header" id="headingTOne">
+                    <h2> 
+                      <label class="form-check-label" for="mainFormInlineRadio3">General Enquiry </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input class="form-check-input" type="radio" checked name="formMainInlineRadioOptions" id="mainFormInlineRadio1" value="mainFormOption1" data-toggle="collapse" data-target="#collapseGeneralEnquiry"  aria-controls="collapseGeneralEnquiry">
+                    </h2>
+                    </div>
+                    <div id="collapseGeneralEnquiry" class="collapse show" aria-labelledby="headingOne" data-parent="#contactForm">
+                      <div class="card-body">
+                        <div class="row"><!-- General Enquiry-->
+                          <div class="col-12">
+                            <div class="row my-2">
+                              <div class="form-check form-check-inline col-12 justify-content-center">
+                                <label for="mainFormTextarea1">Type your message here: </label>
+                              </div>
+                              <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                <textarea class="form-control" id="mainFormTextarea1" rows="5" required></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="makeBooking">
+                      <h2> 
+                        <label class="form-check-label" for="mainFormInlineRadio2"> Book Your Trip </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="form-check-input" type="radio" name="formMainInlineRadioOptions" id="mainFormInlineRadio2" value="mainFormOption2" data-toggle="collapse" data-target="#collapseBooking" aria-controls="collapseBooking">
+                      </h2>
+                    </div>
+                    <div id="collapseBooking" class="collapse" aria-labelledby="makeBooking" data-parent="#contactForm">
+                      <div class="card-body">
+                        <div class="col-12"> <!--Choose the trip-->
+                          <div class="row my-2">
+                            <div class="form-check form-check-inline col-12 justify-content-center">
+                              <p>Choose your trip: </p>
+                            </div>
+                            <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="bookTripOption" id="bookInlineRadio1" value="bookPenYFan" required>
+                                <label class="form-check-label" for="bookInlineRadio1">Pen-Y-Fan</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="bookTripOption" id="bookInlineRadio2" value="bookBreconWaterfalls">
+                                <label class="form-check-label" for="bookInlineRadio2">Brecon Waterfalls</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="bookTripOption" id="bookInlineRadio3" value="bookMargamPark">
+                                <label class="form-check-label" for="bookInlineRadio3">Margam Park</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row"> <!--Pick up and drop off location-->
+                          <div class="col-12">
+                            <div class="row my-2">
+                              <div class="form-check form-check-inline col-12 justify-content-center">
+                                <p>Choose your pick up/ drop off location: </p>
+                              </div>
+                              <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="pickUpLocation" id="bookInlineRadio1" value="Cardiff" required>
+                                  <label class="form-check-label" for="bookInlineRadio1">Cardiff</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="pickUpLocation" id="bookInlineRadio2" value="Swansea">
+                                  <label class="form-check-label" for="bookInlineRadio2">Swansea</label>
+                                </div>                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row"> <!-- Preferred Date of Travel-->
+                          <div class="col-12">
+                            <div class="row my-2">
+                              <div class="form-check form-check-inline col-12 justify-content-center">
+                                <label class="form-check-label" for="bookdate">Date of Travel: </label>
+                              </div>
+                              <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                <input class="form-check-input" type="date" name="bookDate" id="bookdate" required>  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row"> <!-- Meal Option-->
+                          <div class="col-12">
+                            <div class="row my-2">
+                              <div class="form-check form-check-inline col-12 justify-content-center">
+                                <p>Choose your meal option: </p>
+                              </div>
+                              <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="mealOption" id="bookInlineRadio1" value="hamAndCheese" required>
+                                  <label class="form-check-label" for="bookInlineRadio1">Ham & Cheese Baguette</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="mealOption" id="bookInlineRadio2" value="CheeseAndOnion">
+                                  <label class="form-check-label" for="bookInlineRadio2">Cheese and Onion Baguette</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="mealOption" id="bookInlineRadio3" value="bookMargamPark">
+                                  <label class="form-check-label" for="bookInlineRadio3">Tomato and Lettuce Salad</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row"> <!-- Food allergies-->
+                          <div class="col-12">
+                            <div class="row my-2">
+                              <div class="form-check form-check-inline col-12 justify-content-center">
+                                <p>Do you have any allergies? </p>
+                              </div>
+                              <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="allergyOption" id="radioOption1" value="No">
+                                  <label class="form-check-label" for="radioOption1">No</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="allergyOption" id="radioOption2" value="Yes">
+                                  <label class="form-check-label" for="radioOption2">Yes</label>
+                                </div>                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row"><!-- Allergy details-->
+                          <div class="col-12">
+                            <div class="row my-2">
+                              <div class="form-check form-check-inline col-12 justify-content-center">
+                                <label for="mainFormTextarea1"> If Yes, please detail: </label>
+                              </div>
+                              <div class="form-check form-check-inline col-12 justify-content-center my-1">
+                                <textarea class="form-control" id="mainFormTextarea1" rows="5" placeholder="ex: nuts/diary/gluten/etc" required></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!----------------- END OF FORM SECTION ----------------->
     
     <!---------------- START OF FOOTER SECTION ---------------->
