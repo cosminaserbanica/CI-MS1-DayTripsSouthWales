@@ -385,6 +385,17 @@ form fieldset input:-internal-autofill-selected {
   background-color: #fff;
 }
 
+.submit {
+  margin-bottom: 15px;
+  background-color: gray;
+  border-color: transparent;
+}
+
+.submit:hover {
+  color: black;
+  background-color: #fff;
+}
+
 /************************** MEDIA QUERIES ***************************/
 
 /* 991PX USED ONLY FOR NAVBAR ITEMS WHEN DROPDOWN TURNS TO HAMBURGER MENU */
