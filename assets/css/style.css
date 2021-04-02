@@ -236,10 +236,6 @@ hr {
   transition:ease-in-out .2s;
 }
 
-.card:hover {
-  transform:scale(1.1);
-}
-
 .city {
   color: rgb(112, 23, 23);
   font-size: 14px;
@@ -337,23 +333,24 @@ ul {
 
 /************************** STYLES FOR BOOK NOW ***************************/
 
-.book-now-section {
-  margin: 0;
-}
-
-.book-now-section>img {
-  margin: 0;
-  padding: auto;
-  width: 100% !important;
-  height: 1000px;
-  object-fit: cover;
+.book-now-section >img {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1200px;
+  background-size: cover;
+  position: relative; 
+  text-align: center;
 }
 
 .book-now-container{
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: fit-content;
+  width: 1000px;
+  position: absolute; 
+  top:50%; 
+  left:50%; 
+  transform: translate(-50%, -50%);
+  margin: 100px 0 100px 0;
 }
 
 fieldset{
@@ -400,7 +397,7 @@ form fieldset input:-internal-autofill-selected {
   background-color: #fff;
 }
 
-/************************** STYLES FOR 404 Error page ***************************/
+/************************** STYLES FOR 404 ERROR PAGE ***************************/
 
 #error-page {
   margin: 0;
