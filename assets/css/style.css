@@ -223,13 +223,13 @@ hr {
   margin-bottom: 20px;
 }
 
-.card>p {
+.trip-review>p {
   font-family: "Bree Serif", sans-serif;
   color:black;
   font-size: 14px;
 }
 
-.card {
+.trip-review {
   background-color: whitesmoke;
   padding: 15px;
   margin: 10px 20px 0 20px;
