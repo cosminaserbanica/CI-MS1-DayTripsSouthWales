@@ -399,7 +399,7 @@ form fieldset input:-internal-autofill-selected {
 /************************** STYLES FOR 404 Error page ***************************/
 
 #error-page {
-  background-image: url(/assets/images/lost404.jpg);
+  background-image: url(/assets/images/Other/lost404.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
