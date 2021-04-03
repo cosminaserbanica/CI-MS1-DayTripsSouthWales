@@ -498,6 +498,11 @@ form fieldset input:-internal-autofill-selected {
     width: 260px
   }
 
+  .collapse {
+    height: 40vh;
+    overflow: auto;
+  }
+
 }
 
 /* 280PX USED ONLY FOR GALAXY FOLD FOR BETTER USER EXPERIENCE */
