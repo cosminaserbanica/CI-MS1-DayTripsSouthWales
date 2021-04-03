@@ -336,14 +336,19 @@ ul {
 }
 
 /************************** STYLES FOR BOOK NOW ***************************/
-
+.book-now-section {
+  width: 100%;
+  min-height: 1200px;
+  max-height: 2500px;
+}
 .book-now-section >img {
   background-repeat: no-repeat;
   width: 100%;
-  height: 1200px;
+  min-height: 1200px;
+  max-height: 2500px;
   background-size: cover;
   position: relative; 
-  text-align: center;
+  object-fit: cover;
 }
 
 .book-now-container {
@@ -370,6 +375,7 @@ fieldset{
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: .25rem;
 } 
+
 
 form fieldset .card-header { 
   background-color: rgba(255, 255, 255, 0.164);
@@ -506,4 +512,12 @@ form fieldset input:-internal-autofill-selected {
     width: 200px
   }
 
+  .form-check-inline {
+    display: block;
+  }
+  .text-input>input {
+    width: 115%;
+  }
 }
+
+
