@@ -336,15 +336,11 @@ ul {
 }
 
 /************************** STYLES FOR BOOK NOW ***************************/
-.book-now-section {
-  width: 100%;
-  min-height: 1200px;
-  max-height: 2500px;
-}
+
 .book-now-section >img {
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 1200px;
+  min-height: 1300px;
   max-height: 2500px;
   background-size: cover;
   position: relative; 
