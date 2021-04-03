@@ -498,6 +498,13 @@ form fieldset input:-internal-autofill-selected {
     width: 260px
   }
 
+  .form-check-inline {
+    display: block;
+  }
+  .text-input>input {
+    width: 115%;
+  }
+
   .accordion .collapse {
     height: 40vh;
     overflow: auto;
