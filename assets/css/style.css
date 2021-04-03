@@ -346,14 +346,14 @@ ul {
   text-align: center;
 }
 
-.book-now-container{
+.book-now-container {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 1000px;
-  position: absolute; 
-  top:50%; 
-  left:50%; 
-  transform: translate(-50%, -50%);
+  width: 75%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
   margin: 100px 0 100px 0;
 }
 
@@ -470,7 +470,7 @@ form fieldset input:-internal-autofill-selected {
     margin: 0px 50px 0px 50px;
   }
 
-  }
+}
 
 
 /* 576PX USED ON MOBILE FOR BETTER USER EXPERIENCE */
@@ -491,7 +491,6 @@ form fieldset input:-internal-autofill-selected {
     height: 260px;
     width: 260px
   }
-  
 
 }
 
