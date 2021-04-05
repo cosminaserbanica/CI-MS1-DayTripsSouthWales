@@ -108,4 +108,5 @@ After defining the strategy, the scope was developed based on the following requ
           - Get in touch with the business via social media links
 
 #### Structure
-
+With the previously identified strategy and scope, the ideal structure was agreed to match the following diagram:
+![Site structure](assets/readme-files/structure-tree.png)
