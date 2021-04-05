@@ -32,3 +32,80 @@
      3. [Code](#Code)
 9. [Acknowledgements](#Acknowledgements)
 ***
+## Introduction
+
+This website was designed for a fictional, but potential travel business based in South Wales whose main objective is organising day trips to famous landmarks. The purpose of the website is to create an online presence, allowing customers to find information about the business and the services provided. 
+
+This is the first Milestone Project a student must complete as part of the Web Applications Development Program at Code Institute.
+
+The main requirements were to make a responsive and static responsive website with a minimum of three pages using primarily **HTML5** and **CSS3**.
+
+[Back to top ⇧](#Day Trips South Wales)
+
+## UX 
+
+### Ideal User Demographic
+#### The ideal user of this website is:
+- New customers
+- Current customers
+
+### User Stories
+#### New Customer Goals:
+1. As a new customer, I want to easily navigate through the website to find relevant information about the services provided.
+2. As a new customer, I want to be able to find out easily what the business does and who provides the service.
+3. As a new customer, I want to find out how the service is provided.
+4. As a new customer, I want to easily find information about the quality of the service from previous customers.
+5. As a new customer, I want to be able to see proof of the service, such as pictures, videos or locations.
+6. As a new customer, I want to easily get in touch with the business to enquire additional information or to book the service.
+#### Current Customers Goals:
+1. As a current customer, I want to easily navigate through the content in order to book the service again.
+2. As a current customer, I want to be able to get in touch easily with the business.
+3. As a current customer, I want a dedicated area where my opinions on the service can be published.
+
+### Development Planes
+In order to develop and promote a customer-centric business whose main goal is to sell a service, the website has been designed based on:
+#### Strategy
+The targeted audience:
+- Locals looking for a daily activity
+- Locals looking to meet other people while exploring the landmarks
+- Tourists visiting South Wales
+- Outdoor lovers interested in nature
+- Age group: suitable for any age group
+
+The **user** can use the website to:
+- Find information about the business and who runs it
+- Find information about the service, such as tour details, pictures, videos and locations
+- Find information about how the service has been provided from previous users
+- Enquire additional information and book the service
+- Get in touch with the business via social media platforms
+
+The **business** can use the website to:
+- Introduce themselseves to the user and promote the day trips options
+- Add new trip options or update the service
+- Attract new customers by sharing previous customers experiences
+- Receive customer enquiries or booking requests
+- Create an online presence in order to gain customer trust
+
+#### Scope
+After defining the strategy, the scope was developed based on the following requirements:
+- **User Requirements**
+     - The user will be looking for:
+          - Information about what the business does
+          - Information about who provides the service and how do they do it
+          - Opinions on the service from previous users
+          - Details of what the service includes and how the service looks like
+          - Options on how to book the service or get in touch with the business
+          - Options on which service to book
+          - Find the business on social media
+- **How the user requirements have been met**
+     - The user will be able to:
+          - Navigate through the site with minimum clicks in order to find the information they want
+          - Be able to find links to external sites in order to:
+               - Find pick-up/ drop off locations
+               - Find out about additional activities provided by other business
+               - Book additional activities
+          - Get in touch with the business through a form that offers multiple options based on user intention
+          - Get in touch with the business via social media links
+
+#### Structure
+
