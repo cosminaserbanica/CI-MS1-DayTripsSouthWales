@@ -113,4 +113,8 @@ With the previously identified strategy and scope, the ideal structure was agree
 #### Skeleton
 **Skeleton has been put together using [Balsamiq wireframes](https://balsamiq.com/ "Link to Balsamiq wireframes")**
 - Wireframes for desktop: 
-(assets/readme-files/desktop-wireframe.png)
+![Desktop wireframes](assets/readme-files/desktop-wireframe.png)
+- Wireframes for Ipad:
+![Ipad wireframes](assets/readme-files/ipad-wireframe.png)
+-Wireframes for smarthphone:
+![Smartphone wireframes](assets/readme-files/smartphone-wireframe.png)
