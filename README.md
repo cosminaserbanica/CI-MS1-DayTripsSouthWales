@@ -40,7 +40,6 @@ This is the first Milestone Project a student must complete as part of the Web A
 
 The main requirements were to make a responsive and static responsive website with a minimum of three pages using primarily **HTML5** and **CSS3**.
 
-[Back to top ⇧](#Day Trips South Wales)
 
 ## UX 
 
@@ -110,3 +109,8 @@ After defining the strategy, the scope was developed based on the following requ
 #### Structure
 With the previously identified strategy and scope, the ideal structure was agreed to match the following diagram:
 ![Site structure](assets/readme-files/structure-tree.png)
+
+#### Skeleton
+**Skeleton has been put together using [Balsamiq wireframes](https://balsamiq.com/ "Link to Balsamiq wireframes")
+- Wireframes for desktop: 
+(assets/readme-files/desktop-wireframe.PNG)
