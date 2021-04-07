@@ -111,10 +111,29 @@ With the previously identified strategy and scope, the ideal structure was agree
 ![Site structure](assets/readme-files/structure-tree.png)
 
 #### Skeleton
-**Skeleton has been put together using [Balsamiq wireframes](https://balsamiq.com/ "Link to Balsamiq wireframes")**
+**Skeleton** has been put together using [Balsamiq wireframes](https://balsamiq.com/ "Link to Balsamiq wireframes")
 - Wireframes for desktop: 
 ![](assets/readme-files/desktop-wireframe.PNG)
 - Wireframes for Ipad:
 ![](assets/readme-files/ipad-wireframe.PNG)
--Wireframes for smarthphone:
+- Wireframes for smarthphone:
 ![](assets/readme-files/smartphone-wireframe.PNG)
+
+### Design
+
+#### Colour Scheme
+The main colours used throughout the website are Black for text and White for background for the first and second page. White font has been used on the Book Now page to be visible on the background image.
+
+
+#### Typography
+The fonts used are [Bangers](https://fonts.google.com/specimen/Bangers "Link to Bangers Google Font") for the Logo situated in the navbar with Cursive as the fallback in case of import failure and [Bree Serif](https://fonts.google.com/specimen/Bree+Serif "Link to Bree Serif Google Font") Bree Serif font  is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+
+
+#### Imagery
+The imaages selected have been used with a main purpose of promoting the Welsh landmarks and the service provided. 
+
+The images used for the Navbar, Pen-Y-Fan and Brecon Waterfalls sections are from personal archive.
+
+The carousel and the Book Now background demanded good quality pictures taken at high resolution, which is why I have used images provided by [Unsplash](https://unsplash.com/ "Link to https://unsplash.com/").
+
+The images used for the Margam Park section have been provided by [Dreamstime](https://www.dreamstime.com "Link to https://www.dreamstime.com")
