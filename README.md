@@ -198,4 +198,22 @@ Every page contains relevant information about the business and the service, whi
 ### Features to Implement in the future
 - **Payment feature**
      - **Feature** - a payment feature on the Book Now page where the user can pay for the service when booking.
-     - **Reason for not featuring in this release** - Django framework needed to implement a payment gateway.
+     - **Reason for not implementing it** - Django framework needed to implement a payment gateway.
+
+## Issues and Bugs 
+During the development I ran into a couple of issues that required more time to solve in order to implement the desired design. The most important of them are described below:
+
+**Carousel** - An issue was detected in the carousel which was not allowing the images to resize in order to fill the entire width of the carousel. In implementing a carousel, Bootstrap was used but I needed further documentation in order to achieve the end result. The solution was found on [Stack Overflow](https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio "Link to Stack Overflow"). The code has been adapted to the current project.
+
+**Carousel Caption** - Difficulties were encountered in centering the carousel caption in the middle of the slide. In order to sort this out, code has been adapted from [Stack Overflow](https://stackoverflow.com/questions/54251532/carousel-height-100-carousel-caption-align-middle-and-image-indicators "Link to Stack Overflow"). Another issue has been afterwards met, when the caption background was overlapping the text. To solve it, I have adapted code from [Stack Overflow](https://stackoverflow.com/questions/41159580/bootstrap-carousel-caption-overlapping-texts "Link to Stack Overflow").
+
+**Carousel Caption Responsiveness** - Another problem was been detected when testing for responsiveness. The carousel caption was not responsive on smaller devices. In order to solve this issue I have researched and found a similar problem and solution on [Stack Overflow](https://stackoverflow.com/questions/54680035/how-can-i-make-my-carousel-caption-responsive "Link to Stack Overflow").
+
+**Day Trips Heading** - In order to achieve the wanted design on each heading I have used a solution provided by [Stack Overflow](https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle)
+
+**Contact Form Issue** - To achieve the end result, a Bootstrap Accordion was used, however, it was not responsive. When viewed on smalled devices, the form would overlap the footer when accordion was extended. To rectify this, I have adapted code found on [Stack Overflow](https://stackoverflow.com/questions/12172177/set-div-height-equal-to-screen-size). The code has been added in the media queries for smaller devices:
+
+.accordion .collapse {
+    height: 40vh;
+    overflow: auto;
+  }
