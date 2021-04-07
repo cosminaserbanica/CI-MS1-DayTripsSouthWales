@@ -214,3 +214,26 @@ During the development I ran into a couple of issues that required more time to 
 **Day Trips Heading** - In order to achieve the wanted design on each heading I have used a solution provided by [Stack Overflow](https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle)
 
 **Contact Form Issue** - To achieve the end result, a Bootstrap Accordion was used, however, it was not responsive. When viewed on smalled devices, the form would overlap the footer when accordion was extended. To rectify this, I have adapted code found on [Stack Overflow](https://stackoverflow.com/questions/12172177/set-div-height-equal-to-screen-size). The code has been added in the media queries for smaller devices.
+
+## Technologies Used
+### Main Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+
+### Frameworks, Libraries & Programs Used
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Bangers" and  "Bree Serif" into the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on all pages throughout the website to import icons.
+- [VSCode](https://code.visualstudio.com/" Link to VS Code homepage")
+     - Visual Studio Code was used for editing and version control to commit and push to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing.
+- [Balsamiq Wireframes](https://www.balsamiq.com/ "Link to Balsamiq homepage")
+     - Balsamiq was used in the early days to design the project.
+- [Screenfly by Bluetree](https://bluetree.ai/screenfly/?u=https%3A//https%3A/&w=undefined&h=undefined "Link to Screenfly Homepage")
+     - Screenfly by Bluetree has been used to check responsiveness.
+- [Techsini](https://techsini.com/multi-mockup/index.php)
+     - Techsini has been used to generate mock-up images.
