@@ -18,8 +18,7 @@
 4. [Issues and Bugs](#Issues-and-Bugs)
 5. [Technologies Used](#Technologies-Used)
      1. [Main Languages Used](#Main-Languages-Used)
-     2. [Additional Languages Used](#Additional-Languages-Used)
-     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+     2. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
      1. [Testing.md](TESTING.md)
 7. [Deployment](#Deployment)
@@ -184,3 +183,19 @@ Every page contains relevant information about the business and the service, whi
           </li>
      </ul>
   </dd>
+
+### Existing Features
+- **Header Logo** - Can be visible of every page for consistency. When clicked, it re-directs the user back to the Home page.
+- **Header Navigation Bar** - Displayed on every page to facilitate navigation.
+- **Social Icons** - Situated in the footer, they are being displayed on every page.
+- **Click here button** - Added in the Home Page Headline, directs the user to the second page, where the service is further described. Has been added to create a smooth flow and connection between the pages.
+- **Book -trip- button** - Added for every section of the Our Trips page to direct the user to the book now page.
+- **Youtube Embed** - iframe element for a youtube video, which provides more visual information to the user. Different video has been used for each trip location.
+- **Google Maps Embed** - iframe embedding of Google maps, showing the location of each landmark.
+- **Accordion** - An accordion has been used for the form situated in the Book Now page to give the user options when getting in touch with the business.
+- **404 page** - A 404 Error page has been created to re-direct the user back to the Home page.
+
+### Features to Implement in the future
+- **Payment feature**
+     - **Feature** - a payment feature on the Book Now page where the user can pay for the service when booking.
+     - **Reason for not featuring in this release** - Django framework needed to implement a payment gateway.
