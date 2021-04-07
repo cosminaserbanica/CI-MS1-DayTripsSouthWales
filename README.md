@@ -290,3 +290,27 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits 
+
+### Content
+- The text used in the project has been created by the developer with a customer-centric intention in mind.
+
+### Media
+- Images used for carousel Book Now page and 404 Error page background have been sourced from [Unsplash](https://unsplash.com/ "Link to Unsplash Home Page").
+- Images used for Margam Park have been sourced from [Dreamstime](https://www.dreamstime.com/ "Link to Dreamstime").
+
+### Code 
+During the development, especially when coming across issues, I have used documentation from the following sources:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
+- [Bbbootstrap](https://bbbootstrap.com/snippets/bootstrap-customer-reviews-testimonials-64025662 "Link to bbbotstrap")
+
+## Acknowledgements
+
+- I would like to thank to [Rebecca](https://github.com/rebeccatraceyt "Link to Rebecca's Github Page"), one of the first fellow students at Code Institute I have met, for raising the bar and inspiring me to achieve more.
+- I would like to thank my mentor, Femi, for his great advice and support during the development of this project.
+- Nevertheless, I would like to thank Code Institute for this great opportunity of learning and development of my skills.
+
+***
