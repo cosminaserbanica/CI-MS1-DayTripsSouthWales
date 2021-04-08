@@ -227,7 +227,7 @@ During the development I ran into a couple of issues that required more time to 
     - Google fonts was used to import the fonts "Bangers" and  "Bree Serif" into the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
      - Font Awesome was used on all pages throughout the website to import icons.
-- [VSCode](https://code.visualstudio.com/" Link to VS Code homepage")
+- [Visual Studio Code](https://code.visualstudio.com/ "Link to VS Code homepage")
      - Visual Studio Code was used for editing and version control to commit and push to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
      - GitHub was used to store the project after pushing.
