@@ -132,7 +132,6 @@ footer {
 /* Social Media Styling */
 .social-icons {
   text-align: center;
-  padding-inline-start: 0px;
   margin-bottom: 0px; 
 }
 
@@ -293,7 +292,7 @@ hr {
   font-size: 18px;
   color:black;
   text-align: center;
-  text-decoration: underline solid 2px blue;
+  text-decoration: underline blue;
 }
 
 .gallery-list {
@@ -304,6 +303,7 @@ hr {
   margin-bottom: 20px;
   list-style-type: none;
   text-align: center;
+  padding-left: 0px;
 }
 
 .gallery-list>li {
@@ -327,13 +327,12 @@ div.button {
   text-align: center;
 }
 
-.gallery-img {
+.gallery-img, .gallery-youtube, .gallery-maps {
+  width: 350px;
+  height: 300px;
   padding-bottom: 5px;
 }
 
-ul {
-  padding-inline-start: 0;
-}
 
 /************************** STYLES FOR BOOK NOW ***************************/
 
@@ -489,7 +488,7 @@ form fieldset input:-internal-autofill-selected {
     transform: translateY(-40%);
   }
 
-  .gallery-img {
+  .gallery-img, .gallery-youtube, .gallery-maps {
     height: 260px;
     width: 260px
   }
@@ -518,7 +517,7 @@ form fieldset input:-internal-autofill-selected {
     font-size: 14px;
   }
 
-  .gallery-img {
+  .gallery-img, .gallery-youtube, .gallery-maps {
     height: 200px;
     width: 200px
   }
