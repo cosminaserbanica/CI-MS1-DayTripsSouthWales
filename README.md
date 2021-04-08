@@ -20,7 +20,7 @@
      1. [Main Languages Used](#Main-Languages-Used)
      2. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
-     1. [Testing.md](TESTING.md)
+     1. [Testing.md](testing.md)
 7. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
      2. [Forking the Repository](#Forking-the-Repository)
