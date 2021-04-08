@@ -213,6 +213,8 @@ During the development I ran into a couple of issues that required more time to 
 
 **Day Trips Heading** - In order to achieve the wanted design on each heading I have used a solution provided by [Stack Overflow](https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle)
 
+**More details section** - The More details section has shown an issue where one of the iframes was changing position when zooming out on desktop devices. After consultation with my mentor, [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/) grid system has been used to fix the problem.
+
 **Contact Form Issue** - To achieve the end result, a Bootstrap Accordion was used, however, it was not responsive. When viewed on smalled devices, the form would overlap the footer when accordion was extended. To rectify this, I have adapted code found on [Stack Overflow](https://stackoverflow.com/questions/12172177/set-div-height-equal-to-screen-size). The code has been added in the media queries for smaller devices.
 
 ## Technologies Used
