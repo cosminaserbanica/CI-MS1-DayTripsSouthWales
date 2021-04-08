@@ -71,30 +71,30 @@ I manually tested every element myself to ensure they are functional.
 
 5. I checked that all the internal navigation was working as it should. 
 
-## Code Validators
+## Code Validation
 
 The HTML code has been validated using [W3 HTML Validator](https://validator.w3.org):
 
-- <strong>Home Page Validation</strong>
+#### <strong>Home Page Validation</strong>
   - When running the Home Page code through the Validator the following errors have been identified:
     ![](assets/images/testing-files/w3c-home-page.PNG)
 
-- <strong>Our Trips Page Validation</strong>
+#### <strong>Our Trips Page Validation</strong>
   - When running the Our Trips Page code through the Validator the following errors have been identified:
     ![](assets/images/testing-files/w3c-our-trips-1.PNG)
     ![](assets/images/testing-files/w3c-our-trips-2.PNG)
 
-- <strong>Book Now Page Validation</strong>
+#### <strong>Book Now Page Validation</strong>
   - When running the Book Now Page code through the Validator the following errors have been identified:
     ![](assets/images/testing-files/w3c-book-now-1.PNG)
     ![](assets/images/testing-files/w3c-book-now-2.PNG)
 
-- <strong>404 Error Page Validation</strong>
+#### <strong>404 Error Page Validation</strong>
   - When running the 404 Error Page code through the Validator the following errors have been identified:
     ![](assets/images/testing-files/w3c-404-1.PNG)
 
-- <strong>Course of action</strong>
-  - All errors have been fixed so the end result is having every page error free. The current snip shows the 404 page, however, this is valid for all pages:
+- <strong>Course of action:</strong>
+  - All errors have been fixed so the end result is having every page error free, valid for all pages:
     ![](assets/images/testing-files/w3c-after.PNG)
 
 The CSS code has been validated using [W3 CSS Validator](https://jigsaw.w3.org/css-validator/):
@@ -102,6 +102,31 @@ The CSS code has been validated using [W3 CSS Validator](https://jigsaw.w3.org/c
 - When running the code through the Validator the following errors have been identified: 
   ![](assets/images/testing-files/css-validator.PNG)
 
--<strong> Course of action:
+-<strong> Course of action:</strong>
   - All errors have been fixed so the end result is error free:
     ![](assets/images/testing-files/css-validator-after.PNG)
+
+## Lighthouse auditing
+
+#### <strong> Home Page</strong>
+  ![](assets/images/testing-files/testing1.PNG)
+
+- Course of action:
+  - The highlighted errors have been fixed so the end result could be achieved:
+    ![](assets/images/testing-files/testing2.PNG)
+
+  - <strong>Best practices</strong> indicating an issue with incorrect image ratio. Based on [discussion](https://stackoverflow.com/questions/50494904/logo-image-displaying-at-incorrect-aspect-ratio) found on Stack Overflow I have decided not to take action.
+
+#### <strong> Our Trips Page</strong>
+  ![](assets/images/testing-files/our-trips-testing.PNG)
+
+- <strong>Best practices</strong> indicating an issue with incorrect image ratio. Based on [discussion](https://stackoverflow.com/questions/50494904/logo-image-displaying-at-incorrect-aspect-ratio) found on Stack Overflow I have decided not to take action.
+  - No other action required.
+
+#### <strong> Book Now Page</strong>
+  ![](assets/images/testing-files/book-now-testing1.PNG)
+
+- Course of action:
+  - The highlighted errors have been fixed so the end result could be achieved:
+  ![](assets/images/testing-files/book-now-testing-after.PNG)
+
