@@ -49,16 +49,16 @@ The main requirements were to make a responsive and static responsive website wi
 
 ### User Stories
 #### New Customer Goals:
-1. As a new customer, I want to easily navigate through the website to find relevant information about the services provided.
-2. As a new customer, I want to be able to find out easily what the business does and who provides the service.
-3. As a new customer, I want to find out how the service is provided.
-4. As a new customer, I want to easily find information about the quality of the service from previous customers.
-5. As a new customer, I want to be able to see proof of the service, such as pictures, videos or locations.
-6. As a new customer, I want to easily get in touch with the business to enquire additional information or to book the service.
+1. Easily navigate through the website to find relevant information about the services provided.
+2. Be able to find out easily what the business does and who provides the service.
+3. Find out how the service is provided.
+4. Easily find information about the quality of the service from previous customers.
+5. Be able to see proof of the service, such as pictures, videos or locations.
+6. Easily get in touch with the business to enquire additional information or to book the service.
 #### Current Customers Goals:
-1. As a current customer, I want to easily navigate through the content in order to book the service again.
-2. As a current customer, I want to be able to get in touch easily with the business.
-3. As a current customer, I want a dedicated area where my opinions on the service can be published.
+1. Easily navigate through the content in order to book the service again.
+2. Be able to get in touch easily with the business.
+3. Have a dedicated area where my opinions on the service can be published.
 
 ### Development Planes
 In order to develop and promote a customer-centric business whose main goal is to sell a service, the website has been designed based on:
@@ -165,7 +165,7 @@ Every page contains relevant information about the business and the service, whi
   <dt><a href="our-trips.html" alt="Day Trips South Wales Our Trips Page">Our Trips</a></dt>
   <dd>The Our Trips Page is divided three sections, one for each location of the trip:
      <ul>
-          <li><strong>Pen-Y-Fan</strong> - The section contains two columns, which are displayed as a row on desktop, and fall one under each other on smaller devices. One column contains Tour Details and a button which directs the user to the Book-Now page. External links have been added for further information about the pick up/ drop off locations. The other column contains a View more section, with pictures, an iframe for video and an iframe for location of the landmark.
+          <li><strong>Pen-Y-Fan</strong> - The section contains two columns, which are displayed as a row on desktop, and fall one under each other on smaller devices. One column contains Tour Details and a button which directs the user to the Book-Now page. External links have been added for further information about the pick up/ drop off locations. The other column contains a More Details section, with pictures, an iframe for video and an iframe for location of the landmark.
           </li>
           <li><strong>Brecon Waterfall</strong> - The same layout as the previous section has been kept for consistency. The only difference is that in this section, the View more column is being displayed before the Tour details. This decision was taken to enhance the design.
           </li>
@@ -198,7 +198,7 @@ Every page contains relevant information about the business and the service, whi
 ### Features to Implement in the future
 - **Payment feature**
      - **Feature** - a payment feature on the Book Now page where the user can pay for the service when booking.
-     - **Reason for not implementing it** - Django framework needed to implement a payment gateway.
+     - **Reason for not implementing it** - No Backend server for storing data.
 
 ## Issues and Bugs 
 During the development I ran into a couple of issues that required more time to solve in order to implement the desired design. The most important of them are described below:
@@ -275,13 +275,13 @@ By forking the GitHub Repository make a copy of the original repository to view 
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/cosminaserbanica/CI-MS1-DayTripsSouthWales
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/cosminaserbanica/CI-MS1-DayTripsSouthWales
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
