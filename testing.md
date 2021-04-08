@@ -73,14 +73,35 @@ I manually tested every element myself to ensure they are functional.
 
 ## Code Validators
 
-The code has been validated using [W3 HTML Validator](https://validator.w3.org):
+The HTML code has been validated using [W3 HTML Validator](https://validator.w3.org):
 
-- Home Page Validation
+- <strong>Home Page Validation</strong>
   - When running the Home Page code through the Validator the following errors have been identified:
     ![](assets/images/testing-files/w3c-home-page.PNG)
-  - The errors have been fixed to achieve the final result:
-    ![](assets/images/testing-files/w3c-home-page-after.PNG)
 
+- <strong>Our Trips Page Validation</strong>
+  - When running the Our Trips Page code through the Validator the following errors have been identified:
+    ![](assets/images/testing-files/w3c-our-trips-1.PNG)
+    ![](assets/images/testing-files/w3c-our-trips-2.PNG)
 
- 
- [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
+- <strong>Book Now Page Validation</strong>
+  - When running the Book Now Page code through the Validator the following errors have been identified:
+    ![](assets/images/testing-files/w3c-book-now-1.PNG)
+    ![](assets/images/testing-files/w3c-book-now-2.PNG)
+
+- <strong>404 Error Page Validation</strong>
+  - When running the 404 Error Page code through the Validator the following errors have been identified:
+    ![](assets/images/testing-files/w3c-404-1.PNG)
+
+- <strong>Course of action</strong>
+  - All errors have been fixed so the end result is having every page error free. The current snip shows the 404 page, however, this is valid for all pages:
+    ![](assets/images/testing-files/w3c-after.PNG)
+
+The CSS code has been validated using [W3 CSS Validator](https://jigsaw.w3.org/css-validator/):
+
+- When running the code through the Validator the following errors have been identified: 
+  ![](assets/images/testing-files/css-validator.PNG)
+
+-<strong> Course of action:
+  - All errors have been fixed so the end result is error free:
+    ![](assets/images/testing-files/css-validator-after.PNG)
