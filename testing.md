@@ -1,5 +1,10 @@
 ***
-## Table of contents
+
+# Day Trips South Wales Testing 
+
+[Back to README.md file](/README.md)
+
+## Contents
 1. [Testing User Stories](#Testing-User-Stories)
 2. [Manual Testing](#Manual-Testing)
 3. [Automated Testing](#Automated-Testing)    
@@ -7,7 +12,6 @@
      - [Lighthouse Auditing](#Lighthouse-Auditing)
      - [Responsiveness](#Responsiveness)
 
-***
 
 ## Testing User Stories
 
@@ -111,7 +115,7 @@ The CSS code has been validated using [W3 CSS Validator](https://jigsaw.w3.org/c
 #### <strong> Home Page</strong>
   ![](assets/images/testing-files/testing1.PNG)
 
-- Course of action:
+- <strong>Course of action:</strong>
   - The highlighted errors have been fixed so the end result could be achieved:
     ![](assets/images/testing-files/testing2.PNG)
 
@@ -126,7 +130,16 @@ The CSS code has been validated using [W3 CSS Validator](https://jigsaw.w3.org/c
 #### <strong> Book Now Page</strong>
   ![](assets/images/testing-files/book-now-testing1.PNG)
 
-- Course of action:
+- <strong>Course of action:</strong>
   - The highlighted errors have been fixed so the end result could be achieved:
   ![](assets/images/testing-files/book-now-testing-after.PNG)
 
+## Responsiveness
+
+  - In order to test my website for responsiveness on different size devices I have used [Screenfly](https://bluetree.ai/screenfly/?u=https%3A//https%3A/&w=undefined&h=undefined) which offers a larger option of devices to test your website.
+  - To view my website on different devices, please follow this [link](https://bluetree.ai/screenfly/?u=https%3A//cosminaserbanica.github.io/CI-MS1-DayTripsSouthWales/&a=19&b=10).
+  - Every page on the website was responsive on all devices provided on the Screenfly tool.
+  - Example: 
+    ![](assets/images/testing-files/screenfly.PNG)
+
+***

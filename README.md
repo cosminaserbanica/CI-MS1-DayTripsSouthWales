@@ -4,7 +4,7 @@
 
 [View the live project here](https://cosminaserbanica.github.io/CI-MS1-DayTripsSouthWales/)
 
-## Table of contents
+## Contents
 1. [Introduction](#Introduction)
 2. [UX](#UX)
     1. [Ideal User Demographic](#Ideal-User-Demographic)
