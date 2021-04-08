@@ -140,6 +140,7 @@ The CSS code has been validated using [W3 CSS Validator](https://jigsaw.w3.org/c
   - To view my website on different devices, please follow this [link](https://bluetree.ai/screenfly/?u=https%3A//cosminaserbanica.github.io/CI-MS1-DayTripsSouthWales/&a=19&b=10).
   - Every page on the website was responsive on all devices provided on the Screenfly tool.
   - Example: 
-    ![](assets/images/testing-files/screenfly.PNG)
+  
+  ![](assets/images/testing-files/screenfly.PNG)
 
 ***
