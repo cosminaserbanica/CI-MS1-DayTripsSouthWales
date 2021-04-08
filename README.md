@@ -125,7 +125,7 @@ The main colours used throughout the website are Black for text and White for ba
 
 
 #### Typography
-The fonts used are [Bangers](https://fonts.google.com/specimen/Bangers "Link to Bangers Google Font") for the Logo situated in the navbar with Cursive as the fallback in case of import failure and [Bree Serif](https://fonts.google.com/specimen/Bree+Serif "Link to Bree Serif Google Font") Bree Serif font  is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+The fonts used are [Bangers](https://fonts.google.com/specimen/Bangers "Link to Bangers Google Font") for the Logo situated in the navbar with Cursive as the fallback in case of import failure and [Bree Serif](https://fonts.google.com/specimen/Bree+Serif "Link to Bree Serif Google Font") font is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
 
 #### Imagery
