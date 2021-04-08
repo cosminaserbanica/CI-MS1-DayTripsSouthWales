@@ -2,9 +2,10 @@
 ## Table of contents
 1. [Testing User Stories](#Testing-User-Stories)
 2. [Manual Testing](#Manual-Testing)
-3. [Automated Testing](#Automated-Testing) 
+3. [Automated Testing](#Automated-Testing)    
      - [Code Validation](#Code-Validation)
      - [Lighthouse Auditing](#Lighthouse-Auditing)
+     - [Responsiveness](#Responsiveness)
 
 ***
 
@@ -50,3 +51,36 @@
 3. Dedicated area where current users can have their opinions displayed.
 
      - The Home page has a fourth section for testimonials.
+
+## Manual Testing
+
+I manually tested every element myself to ensure they are functional.
+
+1. I tested the website layout on different browsers to ensure it looked good. I used: Chrome, Safari, Opera, Firefox and Edge.
+
+2. On mobile devices, the website was tested on Iphone 6, Iphone 11 plus and Samsung Galaxy S10. 
+
+3. The contact form:
+
+    - I manually tested the accordion to ensure proper display and functionality.
+    - I filled in all permutations of fields, leaving one required field empty each time to make sure I was always prompted to fill in the empty field.
+    - I filled in a wrongly formatted email address to test that the user would be prompted to fill in a valid email address. 
+ 
+
+4. I manually checked each external link, to make sure they are all opening in a new window and to the correct address.
+
+5. I checked that all the internal navigation was working as it should. 
+
+## Code Validators
+
+The code has been validated using [W3 HTML Validator](https://validator.w3.org):
+
+- Home Page Validation
+  - When running the Home Page code through the Validator the following errors have been identified:
+    ![](assets/images/testing-files/w3c-home-page.PNG)
+  - The errors have been fixed to achieve the final result:
+    ![](assets/images/testing-files/w3c-home-page-after.PNG)
+
+
+ 
+ [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)
