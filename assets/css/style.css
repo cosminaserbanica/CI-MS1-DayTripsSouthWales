@@ -528,7 +528,7 @@ form fieldset input:-internal-autofill-selected {
 
   .media-container {
     height: 200px;
-    width: 200px
+    width: 200px;
     margin: 0 auto;
   }
 
